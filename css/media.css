@@ -1,8 +1,5 @@
 /* extra small device */
 @media (max-width: 575px) {
-    .cursor {
-        display: none;
-    }
     /* navbar */
     .navbar-light .navbar-toggler{
         color: var(--main-bg-white);
@@ -249,9 +246,6 @@
 
 /* small device */
 @media (min-width: 576px) and (max-width: 767px) {
-    .cursor {
-        display: none;
-    }
     /* navbar */
     .navbar-light .navbar-toggler{
         color: var(--main-bg-white);
@@ -415,9 +409,6 @@
 
 /* medium device */
 @media (min-width: 768px) and (max-width: 991px) {
-    .cursor {
-        display: none;
-    }
     /* navbar */
     .navbar-light .navbar-toggler{
         color: var(--main-bg-white);
@@ -639,5 +630,51 @@
     #banner .banner-sdots {
         right: 1%;
         padding-top: 40px;
+    }
+}
+
+/* cursor */
+@media (min-width: 992px) {
+    * {
+        cursor: none;
+    }
+    [type="button"]:not(:disabled), [type="reset"]:not(:disabled), [type="submit"]:not(:disabled), button:not(:disabled) {
+        cursor: none;
+    }
+    /* cursor */
+    .cursor{
+        position: fixed;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: var(--main-bg-white);
+        pointer-events: none;
+        mix-blend-mode: difference;
+        z-index: 999;
+        transition: transform 0.2s;
+        -webkit-transition: transform 0.2s;
+        -moz-transition: transform 0.2s;
+        -ms-transition: transform 0.2s;
+        -o-transition: transform 0.2s;
+        opacity: 0;
+    }
+    .cursor::after {
+        position: absolute;
+        content: '';
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 5px;
+        width: 5px;
+        background-color: var(--main-purple);
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
     }
 }
