@@ -145,11 +145,6 @@ h1,h2,h3,h4,h5,h6,p {
     -ms-transition: all linear 0.3s;
     -o-transition: all linear 0.3s;
 }
-.nav_main .nav-item:hover .dropdown-menu {
-    opacity: 1;
-    visibility: visible;
-    margin-top: 0;
-}
 .nav_main .nav-item .dropdown-menu .dropdown-item {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
