@@ -186,3 +186,9 @@
         color: var(--main-blue) !important;
     }
 }
+/* cursor */
+@media (min-width: 992px) {
+    .cursor::after {
+        background-color: var(--main-blue) !important;
+    }
+}
