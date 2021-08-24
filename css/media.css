@@ -1,5 +1,8 @@
 /* extra small device */
 @media (max-width: 575px) {
+    .cursor {
+        display: none;
+    }
     /* navbar */
     .navbar-light .navbar-toggler{
         color: var(--main-bg-white);
@@ -246,6 +249,9 @@
 
 /* small device */
 @media (min-width: 576px) and (max-width: 767px) {
+    .cursor {
+        display: none;
+    }
     /* navbar */
     .navbar-light .navbar-toggler{
         color: var(--main-bg-white);
@@ -409,6 +415,9 @@
 
 /* medium device */
 @media (min-width: 768px) and (max-width: 991px) {
+    .cursor {
+        display: none;
+    }
     /* navbar */
     .navbar-light .navbar-toggler{
         color: var(--main-bg-white);
