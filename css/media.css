@@ -635,12 +635,21 @@
 
 /* cursor */
 @media (min-width: 992px) {
+    /* nav dropdown */
+    .nav_main .nav-item:hover .dropdown-menu {
+        opacity: 1;
+        visibility: visible;
+        margin-top: 0;
+    }
+
     * {
         cursor: none;
     }
+
     [type="button"]:not(:disabled), [type="reset"]:not(:disabled), [type="submit"]:not(:disabled), button:not(:disabled) {
         cursor: none;
     }
+    
     /* cursor */
     .cursor{
         position: fixed;
