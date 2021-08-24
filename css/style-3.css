@@ -1,0 +1,188 @@
+#scrollMain {
+    background: linear-gradient(to top, var(--main-green),var(--main-bg-white));
+}
+#scrollMain::before {
+    background: linear-gradient(to top, var(--main-green),var(--main-bg-white));
+}
+#scrollMain::after {
+    background: linear-gradient(to top, var(--main-green),var(--main-bg-white));
+}
+/* scrollbar part end */
+
+/* navbar part start */
+.nav_main .nav-item .dropdown-menu .dropdown-item:focus, .nav_main .nav-item .dropdown-menu .dropdown-item:hover {
+    color: var(--main-green);
+}
+.nav_main .nav-item .nav-link::after {
+    background-color: var(--main-green);
+}
+.nav_main .nav-item .nav-link:hover, .nav_main .nav-item .nav-link:focus {
+    color: var(--main-green);
+}
+.nav_main .nav-item .nav-link.active {
+    color: var(--main-green);
+}
+.nav_main .nav-item .nav-link.nav_free_trial {
+    background-color: var(--main-green);
+}
+.nav_main .nav-item .nav-link.nav_free_trial:hover, .nav_main .nav-item .nav-link.nav_free_trial:focus {
+    color: var(--main-green);
+}
+.nav_main .offcanvas-header .canclose i:hover {
+    color: var(--main-green);
+}
+/* navbar part end */
+
+/* banner part start */
+#banner .banner_txt h1 span {
+    color: var(--main-green);
+}
+#banner .banner_txt .banner_btn a {
+    background-color: var(--main-green);
+}
+#banner .banner_txt .banner_btn .app_ios:hover {
+    background-color: var(--main-green);
+}
+.banner_home i:hover {
+    color: var(--main-green);
+}
+#banner .banner-sdots .slick-active {
+    border-color: var(--main-green);
+}
+#banner .banner-sdots .slick-active button {
+    background-color: var(--main-green);
+}
+/* banner part end */
+
+/* features part start */
+#features .features_menu .nav-link.active {
+    border-color: var(--main-green);
+}
+#features .features_menu .nav-link.active > i, #features .features_menu .nav-link.active > h3, #features .features_menu .nav-link.active > h6 {
+    color: var(--main-green);
+}
+#features .features_menu .nav-link:hover {
+    border-color: var(--main-green);
+}
+#features .features_menu .nav-link:hover > i, #features .features_menu .nav-link:hover > h3, #features .features_menu .nav-link:hover > h6 {
+    color: var(--main-green);
+}
+/* features part end */
+
+/* screenshots part start */
+#screenshots .screenshots-all .screenshots-sdots .slick-active {
+    border-color: var(--main-green);
+}
+#screenshots .screenshots-all .screenshots-sdots .slick-active button {
+    background-color: var(--main-green);
+}
+/* screenshots part end */
+
+/* video part start */
+#video i:hover {
+    color: var(--main-green);
+}
+/* video part end */
+
+/* price part start */
+#priceplan .price_card:hover .card_head {
+    background-color: var(--main-green);
+}
+#priceplan .price_card:hover .card_signup {
+    background-color: var(--main-green);
+    border-color: var(--main-green);
+}
+/* price part end */
+
+/* team part start */
+#team .team_main .team_img .team_icon i:hover {
+    background-color: var(--main-green);
+}
+/* team part end */
+
+/* feedback part start */
+#feedback .feedback_main .star i {
+    color: var(--main-green);
+}
+#feedback .slick-active.slick-center .feedback_img_main::after {
+    border: 3px solid var(--main-green);
+}
+#feedback .feedback_dp .feedback-sdots .slick-active {
+    border-color: var(--main-green);
+}
+#feedback .feedback_dp .feedback-sdots .slick-active button {
+    background-color: var(--main-green);
+}
+/* feedback part end */
+
+/* contact part start */
+#contact .contact_form #submit {
+    background-color: var(--main-green);
+}
+#contact .contact_form #submit:hover {
+    border-color: var(--main-green);
+    color: var(--main-green);
+}
+/* contact part end */
+
+/* footer part start */
+#footer .social_icon i:hover {
+    background-color: var(--main-green);
+}
+#footer .credit h6 a {
+    color: var(--main-green);
+}
+/* footer part end */
+
+/* back to top part start */
+.back_to_top i{
+    background-color: var(--main-green);
+}
+.back_to_top i:hover{
+    color: var(--main-green);
+    border: 2px solid var(--main-green);
+}
+/* back to top part end */
+
+/* cursor */
+.cursor::after {
+    background-color: var(--main-green);
+}
+
+/* media */
+@media (max-width: 575px) {
+    .navbar-light .navbar-toggler:hover {
+        color: rgba(33, 150, 243, 0.55) !important;
+    }
+    .nav_main .nav-item .nav-link.nav_free_trial:hover, .nav_main .nav-item .nav-link.nav_free_trial:focus {
+        color: var(--main-green) !important;
+        border: 2px solid var(--main-green) !important;
+    }
+    .nav_main .nav-item .mobiledropi.active {
+        color: var(--main-green) !important;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+    .navbar-light .navbar-toggler:hover {
+        color: rgba(33, 150, 243, 0.55) !important;
+    }
+    .nav_main .nav-item .nav-link.nav_free_trial:hover, .nav_main .nav-item .nav-link.nav_free_trial:focus {
+        color: var(--main-green) !important;
+        border: 2px solid var(--main-green) !important;
+    }
+    .nav_main .nav-item .mobiledropi.active {
+        color: var(--main-green) !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-light .navbar-toggler:hover {
+        color: rgba(33, 150, 243, 0.55) !important;
+    }
+    .nav_main .nav-item .nav-link.nav_free_trial:hover, .nav_main .nav-item .nav-link.nav_free_trial:focus {
+        color: var(--main-green) !important;
+        border: 2px solid var(--main-green) !important;
+    }
+    .nav_main .nav-item .mobiledropi.active {
+        color: var(--main-green) !important;
+    }
+}
